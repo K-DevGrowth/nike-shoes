@@ -1,0 +1,130 @@
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  justify-content: space-between;
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.hero {
+  max-width: 1200px;
+}
+
+.hero div {
+  flex: 1;
+}
+
+.hero div h1 {
+  font-size: 75px;
+}
+
+.hero div p {
+  max-width: 380px;
+  color: #777;
+}
+
+.hero button {
+  background-color: rgb(240, 149, 46);
+  color: #fff;
+  padding: 6px 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav .menu {
+  gap: 15px;
+  list-style: none;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-list .flex {
+  gap: 20px;
+}
+
+.product-list .flex .product-link {
+  flex: 1;
+}
+
+.product-list img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.product-card .category {
+  color: #777;
+}
+
+.product-card .price {
+  font-weight: 600;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.flex-2 div {
+  flex: 1;
+}
+
+.order-summary {
+  max-width: 500px;
+  width: 100%;
+}
+
+.order-summary button {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex.cart {
+  flex-direction: column;
+}
